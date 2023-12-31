@@ -1,10 +1,10 @@
 body {
     padding:0;
     margin:0;
+    background-color: #586c92;
 }
 
 .mycanvas { 
-    background-color: #586c92;
     height: 450px; 
     width: 400px; 
     position: absolute; 
@@ -67,6 +67,41 @@ body {
     width:35px;
     border-radius:50%;
     position: relative;
-    bottom: 65px;
+    bottom:65px;
     right:35px;
+}
+.eye1,.eyer{
+    height: 15px;
+    width:30px;
+    border-top: 8px solid #262626;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+}
+.eye1 {
+    left: 32px; 
+    top:20px;
+}
+.eyer{
+    bottom: 3px;
+    left: 92px;
+}
+
+.nose {
+    background-color: #fbd1b6;
+    height:30px;
+    width:35px;
+    border-radius:50%;
+    position: relative; 
+    left: 60px; 
+}
+.mouth {
+    background-color: #262626;
+    height: 20px;
+    width: 40px;
+    border-radius: 0 0 20px 20px; 
+    position: relative; 
+    top:3px;
+    left:57px;
+    opacity: 0.8;
+    
 }
